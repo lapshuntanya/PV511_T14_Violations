@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(PV511_T14_Violations main.cpp
         ArrayTemplate.h
-        DateMac.h)
+        DateMac.h
+        Violation.h)

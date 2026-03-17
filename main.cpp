@@ -1,8 +1,7 @@
-#include <iostream>
+#include "DateMac.h"
+#include "ArrayTemplate.h"
 
 int main() {
 
 
-
-    return 0;
 }
