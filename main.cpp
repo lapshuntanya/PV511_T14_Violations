@@ -89,6 +89,7 @@ int main() {
                 if (index == -1 ) {
                     cout << "Not found! Add a new driver\n";
                     Driver tmp;
+                    cin.ignore();
                     tmp.fillDriver();
                     addItemBack(arrDrivers, sizeDrivers, tmp);
                 }else {
