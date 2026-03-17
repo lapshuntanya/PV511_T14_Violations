@@ -92,7 +92,11 @@ int main() {
                     tmp.fillDriver();
                     addItemBack(arrDrivers, sizeDrivers, tmp);
                 }else {
-
+                    Violation tmp;
+                    tmp.fillViolation();
+                    addItemBack(arrDrivers[index].arrViol,
+                        arrDrivers[index].sizeViol,
+                        tmp);
                 }
             }break;
         }
