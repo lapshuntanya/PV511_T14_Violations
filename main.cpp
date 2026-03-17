@@ -1,6 +1,4 @@
-#include "DateMac.h"
-#include "ArrayTemplate.h"
-#include "Violation.h"
+#include "Driver.h"
 
 int main() {
 
@@ -14,6 +12,13 @@ int main() {
     a.printTableViolation();
     b.printTableViolation();*/
 
+    Driver a = {"Pupkin Vasyl", "AX1234TA",
+        2, new Violation[2] {
+        {{1, 1, 2026}, "Parking", 300},
+        {{16, 3, 2026}, "Speed 200 km/h", 20'000}
+    }};
 
-
+    a.addViol();
+    cout << "+++++++++++++++++++++++++++++++++++++\n\n";
+    a.printDriver();
 }
