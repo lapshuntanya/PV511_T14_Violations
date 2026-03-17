@@ -4,11 +4,15 @@
 
 int main() {
 
-    Violation a = {{1, 1, 2000}, "Parking", 2000};
+    /*
+    Violation a = {{1, 1, 2000},
+        "Parking", 2000};
     Violation b;
     b.fillViolation();
 
     cout << "===========================\n\n";
     a.printTableViolation();
-    b.printTableViolation();
+    b.printTableViolation();*/
+
+
 }
