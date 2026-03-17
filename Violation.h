@@ -12,6 +12,7 @@ struct Violation {
         //date_viol.fillDate();
         cin >> date_viol.day>> date_viol.month>> date_viol.year;
         cout << "Input info: ";
+        cin.ignore();
         cin.getline(info, 100); //!!!!!!!
         cout << "Input fine: ";
         cin >> fine;
